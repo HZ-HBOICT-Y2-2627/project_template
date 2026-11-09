@@ -1,12 +1,12 @@
 # Creating Issues
 
-This document explains how to turn your assignment work — both analysis/design products and code — into GitHub issues that are small enough to resolve in a single pull request.
+This document explains how to turn your project work — both analysis/design products and code — into GitHub issues that are small enough to resolve in a single pull request.
 
 A user story or a product from [products/products.md](products/products.md) is a **requirement**, not a unit of work. Your job is to break it down into issues that are each independently completable, reviewable, and closeable.
 
 ## Two kinds of issues
 
-You will create two categories of issues over the course of the assignment:
+You will create two categories of issues over the course of the project:
 
 1. **Analysis/design issues** — produce one of the products listed in [products/products.md](products/products.md) (persona, system context diagram, use case specification, ERD, component diagram, API specification, UXD test plan, etc.). The deliverable is a document or diagram committed to the `products/` folder.
 2. **Coding issues** — implement part of a user story. The deliverable is working code in `code/`, merged via a PR.

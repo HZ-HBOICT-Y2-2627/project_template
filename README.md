@@ -1,8 +1,16 @@
-# Setup
+# Project Template
 
-In this assignment you can find the following folders:
+This repository is a starting point for a project. Fill in your own case, produce the analysis/design products, and build the implementation — all tracked through GitHub issues and pull requests.
 
-1. [assignment/](assignment/) — the assignment brief and interview material
+## Getting started
+
+1. Create your own repository from this template.
+2. Describe your case in [assignment/assignment.md](assignment/assignment.md) and add your stakeholder interviews to [assignment/interviews.md](assignment/interviews.md). Both files contain placeholders (`[...]`) to replace.
+3. Read [ISSUES_CREATION.md](ISSUES_CREATION.md) and open your first issues.
+
+## Folders
+
+1. [assignment/](assignment/) — the case brief and interview material (templates to fill in)
 2. [products/](products/) — your analysis/design deliverables (persona, diagrams, specs, prototype, test plan)
 3. [code/](code/) — the implementation
 
@@ -16,7 +24,7 @@ All work — analysis/design products and code alike — must be tracked through
 
    Read [ISSUES_CREATION.md](ISSUES_CREATION.md) before opening issues — it explains how to split a story or product into issues that are small enough to review in one PR, and the size checks both templates ask you to confirm.
 
-2. **No direct commits to `main`.** All changes — product documents and code — are made on a branch and merged via a pull request. Never push straight to `main`, even for "small" fixes.
+2. **No direct commits to the main branch.** All changes — product documents and code — are made on a branch and merged via a pull request. Never push straight to the main branch, even for "small" fixes.
 
 3. **One issue → one branch → one pull request.** Name the branch after the issue, and reference the issue in the PR description with `Closes #<issue-number>` so the link shows up automatically and the issue closes on merge.
 
@@ -24,9 +32,9 @@ All work — analysis/design products and code alike — must be tracked through
 
 5. **Traceability is the point.** Because every change is: issue → branch → PR → review → merge, anyone (a teammate or us) can look at the issue tracker and reconstruct what was built, in what order, and who signed off on it. Skipping the process breaks that chain — it's the first thing we check when a milestone looks unclear.
 
-## Assignment
+## Case
 
-See [assignment/assignment.md](assignment/assignment.md) for the brief and [assignment/interviews.md](assignment/interviews.md) for the interview material it's based on.
+See [assignment/assignment.md](assignment/assignment.md) for the case brief and [assignment/interviews.md](assignment/interviews.md) for the interview material it's based on.
 
 ## Products
 
@@ -34,4 +42,5 @@ See [products/products.md](products/products.md) for the list of analysis/design
 
 ## Code
 
-See [code/setup.md](code/setup.md) for how the implementation is organized.
+- [code/backend/](code/backend/) — an **example** microservice backend (auth service, catalog service and API gateway). It shows the expected setup and conventions; adapt, rename or replace the services to fit your own case. See [code/backend/README.md](code/backend/README.md) for how to run it.
+- [code/frontend/](code/frontend/) — empty; add your frontend here.
